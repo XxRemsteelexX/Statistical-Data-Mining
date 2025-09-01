@@ -1,9 +1,5 @@
 # Statistical Data Mining - Housing Price Prediction
 
-## WESTERN GOVERNORS UNIVERSITY - D600
-
-**Note: Do not distribute or publicly post solutions to these labs. Make all forks of this repository with solution code private. Please refer to the student code of conduct and ethical expectations for College of Information Technology students for specifics.**
-
 ## Project Overview
 This repository contains a statistical data mining project focused on predicting housing prices using multiple linear regression. The analysis examines various housing features to build a predictive model for real estate valuation.
 
@@ -29,9 +25,9 @@ The project uses a comprehensive housing dataset with 7,000 property records con
 ## Project Structure
 ```
 Statistical-Data-Mining/
-├── d600task1.ipynb           # main analysis notebook
-├── training_dataset_task1.csv # processed training data (5,577 records)
-├── test_dataset_task1.csv    # test data (1,395 records)
+├── housing_analysis.ipynb     # main analysis notebook
+├── training_dataset.csv       # processed training data (5,577 records)
+├── test_dataset.csv           # test data (1,395 records)
 └── README.md                  # project documentation
 ```
 
@@ -124,13 +120,13 @@ pip install pandas numpy matplotlib seaborn scikit-learn statsmodels jupyter
 ### Running the Analysis
 ```bash
 # start jupyter notebook
-jupyter notebook d600task1.ipynb
+jupyter notebook housing_analysis.ipynb
 ```
 
 ## Files Description
-- **d600task1.ipynb**: Complete analysis including data cleaning, EDA, model building, and visualization
-- **training_dataset_task1.csv**: Cleaned training data with selected features
-- **test_dataset_task1.csv**: Hold-out test set for model validation
+- **housing_analysis.ipynb**: Complete analysis including data cleaning, EDA, model building, and visualization
+- **training_dataset.csv**: Cleaned training data with selected features
+- **test_dataset.csv**: Hold-out test set for model validation
 
 ## Future Improvements
 1. Investigate non-linear relationships and interaction terms
@@ -141,7 +137,7 @@ jupyter notebook d600task1.ipynb
 6. Implement cross-validation for more robust performance estimates
 
 ## Author
-Statistical Data Mining Project - D600 Task 1
+Statistical Data Mining Project
 
 ## License
-This project is for educational purposes as part of WGU coursework.
+This project is for educational purposes.
